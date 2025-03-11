@@ -16,8 +16,11 @@ emailField.addEventListener("input", checkInp)
 messageField.addEventListener("input", checkInp)
 sendBtn.addEventListener("click", function() {
     alert("Tin nhắn đã gửi thành công !")
+    emailField.value = ""
+    messageField.value = ""
+    sendBtn.setAttribute("disabled", "true")
 })
 
-document.querySelector(".send-email-container i").addEventListener("click", function() {
-    window.location.href = location.origin + "/bt_web_portfolio/index.html";
-})
+// document.querySelector(".send-email-container i").addEventListener("click", function() {
+//     window.location.href = "../index.html";
+// })
