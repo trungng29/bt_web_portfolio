@@ -21,6 +21,6 @@ sendBtn.addEventListener("click", function() {
     sendBtn.setAttribute("disabled", "true")
 })
 
-// document.querySelector(".send-email-container i").addEventListener("click", function() {
-//     window.location.href = "../index.html";
-// })
+document.querySelector(".send-email-container i").addEventListener("click", function() {
+    window.location.href = "../index.html";
+})
