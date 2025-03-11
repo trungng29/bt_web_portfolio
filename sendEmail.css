@@ -1,0 +1,65 @@
+.page-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-email-container {
+    background-color: rgba(127, 255, 212, 0.349);
+    height: 80%;
+    width: 100%;
+    border-radius: 30px;
+    border: 5px solid transparent;
+    transition: box-shadow 0.5s ease;
+    position: relative;
+}
+
+.send-email-container:hover {
+    border: 5px solid rgba(30, 99, 76, 0.534);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.192);
+}
+
+.send-email-container > h2 {
+    width: 100%;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-size: 60px;
+    padding: 50px;
+    /* padding-top: 0; */
+}
+
+.send-email-container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-email-container-input > form {
+    width: 80%;
+}
+
+.send-email-container-input label {
+    font-family: "Lexend", sans-serif;
+}
+
+.send-email-container-input button {
+    font-family: "Lexend", sans-serif;
+    width: 200px;
+}
+
+#inputMessage {
+    height: 300px !important;
+}
+
+.send-email-container i {
+    position: absolute !important;
+    left: 50px;
+    top: 20px;
+    color:rgba(127, 255, 212, 0.349) !important;
+    cursor: pointer;
+}
+
+.send-email-container:hover i {
+    color:rgba(30, 99, 76, 0.89) !important;
+}

@@ -7,7 +7,8 @@
 }
 
 body {
-    min-height: 10000px;
+    min-height: fit-content;
+
 }
 
 .portfolio__heading {
@@ -49,23 +50,24 @@ body {
 
 .portfolio__heading__introduction__title h2 {
     font-family: "Big Shoulders Inline", sans-serif;
-    font-size: 36px;
+    font-size: 60px;
 }
 
 .portfolio__heading__introduction__title h3 {
-    font-family: Roboto, sans-serif;
+    font-family: "Lexend", sans-serif;
     font-size: 24px;
     color: rgb(30, 30, 30);
+    font-stretch: narrower;
 }
 
 .portfolio__gallery {
-    height: 800px;
     /* background-color: aquamarine; */
     margin-top: 550px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 .portfolio__gallery__big_item_1 {
@@ -118,7 +120,7 @@ body {
     height: 100%;
 }
 
-
-
-
+.btn-warning {
+    font-weight: 700 !important;
+}
 
