@@ -19,5 +19,5 @@ sendBtn.addEventListener("click", function() {
 })
 
 document.querySelector(".send-email-container i").addEventListener("click", function() {
-    window.location.href = "../index.html";
+    window.location.href = location.origin + "/bt_web_portfolio/index.html";
 })
